@@ -142,9 +142,7 @@ a:hover { text-decoration: underline; }
 .insight p { margin-bottom: 0; }
 .section-note { color: var(--muted); margin-top: 26px; font-size: 1rem; }
 
-/* "From the literature" automated feed */
-.lit-head { font-size: 1.15rem; font-weight: 800; color: var(--ink); margin: 40px 0 4px; }
-.lit-sub { color: var(--muted); margin: 0 0 22px; max-width: 72ch; }
+/* "From the literature" automated feed (heading + intro now live in .section-head) */
 .lit h4 { font-size: 1.05rem; }
 .lit h4 a { color: var(--ink); }
 .lit h4 a:hover { color: var(--primary); }
