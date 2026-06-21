@@ -28,26 +28,6 @@
       "status": "proposed"
     },
     {
-      "pmid": "42113470",
-      "title": "Acute effects of passive heat exposure on vascular function and exercise capacity in patients with chronic kidney disease",
-      "authors": [
-        "Chavez DA",
-        "Garten RS",
-        "Rodriguez-Miguelez P"
-      ],
-      "journal": "American journal of physiology. Heart and circulatory physiology",
-      "year": "2026",
-      "doi": "10.1152/ajpheart.00020.2026",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42113470/",
-      "type": "RCT",
-      "tags": [
-        "heat",
-        "CVD"
-      ],
-      "query": "Sauna & heat → cardiovascular",
-      "status": "proposed"
-    },
-    {
       "pmid": "41794190",
       "title": "Acute blood pressure responses and safety considerations in heat therapy interventions: A narrative review",
       "authors": [

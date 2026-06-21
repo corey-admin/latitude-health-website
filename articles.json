@@ -1,6 +1,6 @@
 {
   "_comment": "'From the literature' feed. Studies live here in two states: 'draft' (staged by pipeline/approve.py) and 'published' (promoted by pipeline/publish.py after a human writes the summary). The public site renders status=='published' ONLY; nothing is auto-published. Per entry: pmid, title, authors[], journal, year, doi, url, type, tags[], summary, status, added.",
-  "lastUpdated": "2026-06-21T12:25:44Z",
+  "lastUpdated": "2026-06-21T16:16:30Z",
   "studies": [
     {
       "pmid": "42241742",
@@ -14,11 +14,62 @@
       "year": "2026",
       "doi": "10.1016/j.hrtlng.2026.102861",
       "url": "https://pubmed.ncbi.nlm.nih.gov/42241742/",
-      "type": "study",
-      "tags": ["heat", "CVD", "equity"],
-      "summary": "",
-      "status": "draft",
-      "added": "2026-06-21T12:25:44Z"
+      "type": "cross-sectional study",
+      "tags": [
+        "heat",
+        "CVD",
+        "equity"
+      ],
+      "summary": "A cross-sectional survey of 1,300 adults across South Asian urban centers found prolonged urban heat exposure associated with higher cardiovascular risk, with socioeconomic factors (income, education, housing) appearing to modify the relationship — and awareness of heat-health campaigns associated with lower risk. A reminder that heat–cardiovascular research must account for social context in the populations most exposed.",
+      "status": "published",
+      "added": "2026-06-21T12:25:44Z",
+      "published_at": "2026-06-21T16:16:30Z"
+    },
+    {
+      "pmid": "42113470",
+      "title": "Acute effects of passive heat exposure on vascular function and exercise capacity in patients with chronic kidney disease",
+      "authors": [
+        "Chavez DA",
+        "Garten RS",
+        "Rodriguez-Miguelez P"
+      ],
+      "journal": "American journal of physiology. Heart and circulatory physiology",
+      "year": "2026",
+      "doi": "10.1152/ajpheart.00020.2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42113470/",
+      "type": "RCT (randomized crossover pilot)",
+      "tags": [
+        "heat",
+        "infrared",
+        "CVD"
+      ],
+      "summary": "In a randomized crossover pilot, a single 25-minute far-infrared sauna session acutely improved vascular function (flow-mediated dilation and microvascular blood flow) and 6-minute-walk distance versus a thermoneutral control in patients with chronic kidney disease, with no signs of kidney injury. An early, mechanistic signal that passive heat — including infrared sauna — may benefit vascular health in a high-cardiovascular-risk group. (Small pilot, n=10, single acute session.)",
+      "status": "published",
+      "added": "2026-06-21T16:16:30Z",
+      "published_at": "2026-06-21T16:16:30Z"
+    },
+    {
+      "pmid": "41878097",
+      "title": "Heat and socioeconomic deprivation compound to drive coronary heart disease in Los Angeles",
+      "authors": [
+        "Huo S",
+        "Pulido TR",
+        "Archer RS"
+      ],
+      "journal": "Frontiers in Public Health",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1784078",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41878097/",
+      "type": "ecological study",
+      "tags": [
+        "heat",
+        "CVD",
+        "equity"
+      ],
+      "summary": "An ecological analysis of 2,513 Los Angeles County neighborhoods found coronary-heart-disease hot spots overlapping areas of both high socioeconomic deprivation and high surface heat, with each factor independently associated with higher CHD prevalence and its strength varying by neighborhood. A concrete picture of how heat and cardiovascular risk compound along lines of inequity.",
+      "status": "published",
+      "added": "2026-06-21T16:16:30Z",
+      "published_at": "2026-06-21T16:16:30Z"
     }
   ]
 }
