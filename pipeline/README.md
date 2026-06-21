@@ -5,18 +5,22 @@ only reads approved content from `../articles.json`. This folder holds the off-s
 automation. **Nothing reaches the public site without admin approval.**
 
 ```
- search_new_research.py  ──►  proposed_articles.json   (private review queue)
+ search_new_research.py  ──►  proposed_articles.json      (private review queue)
         (automated, scheduled)          │
                                         ▼
-                                  approve.py            (admin: approve / reject)
+                                  approve.py               (admin: approve / reject)
                                         │
                       approved ─────────┼───────── rejected
-                                        ▼                 ▼
-                              ../articles.json      rejected.json
-                            (published feed)        (archive; never re-proposed)
+                                        ▼                  ▼
+                     ../articles.json (status: draft)    rejected.json
+                                        │                  (archive; never re-proposed)
+                       write summary + confirm tags/type
+                                        ▼
+                                  publish.py               (validated switch → status: published)
                                         │
                                         ▼
                     upload index.html + styles.css + articles.json → GoDaddy
+                    (the site renders status == "published" studies only)
 ```
 
 No third-party dependencies — `search_new_research.py` and `approve.py` use only the
@@ -40,15 +44,24 @@ Python 3 standard library, so they run on a laptop, a server, or CI.
    ```
    Approved entries are copied into `../articles.json`; rejected ones go to `rejected.json`.
 
-3. **Write the summary (this is the publish switch).** Approved studies are added to
-   `../articles.json` as **drafts** and stay **hidden on the site until you fill their
-   `summary`** (one or two sentences in your own words). Also confirm the auto-filled `type`
-   (RCT / cohort / review / …) and the draft `tags` (heat / UV / infrared / BP / CVD / equity).
-   Citations are real PubMed records — never invented; summaries are always human-written.
+3. **Write the summary + confirm tags/type.** Approved studies land in `../articles.json`
+   as `status: "draft"` and stay **hidden**. Write each study's `summary` (one or two sentences,
+   your own words), and confirm the auto-filled `type` (RCT / cohort / review / …) and draft
+   `tags` (heat / UV / infrared / BP / CVD / equity). Citations are real PubMed records — never
+   invented; summaries are always human-written.
 
-4. **Publish.** Upload **`index.html`, `styles.css`, and `articles.json`** to GoDaddy
-   `public_html` (File Manager or FTP). The site renders the updated feed. *(Only `articles.json`
-   changes between routine updates.)*
+4. **Publish — the switch.** Promote a finished draft (this is the real gate):
+   ```
+   python3 publish.py --list                  # drafts pending + what each still needs
+   python3 publish.py --publish 42241742       # REFUSES unless summary + type + tags are present
+   ```
+   It sets `status: "published"` — the only state the public site renders. `--unpublish PMID` reverts.
+
+5. **Deploy.** Upload **`index.html`, `styles.css`, `articles.json`** to GoDaddy `public_html`
+   (File Manager or FTP). *(Routine updates change only `articles.json`.)*
+
+A scheduled GitHub Action (`.github/workflows/new-research.yml`) runs step 1 weekly and opens a
+PR with refreshed proposals **only** — it never approves or publishes.
 
 ## Scheduling the search (the "automated" part)
 

@@ -50,7 +50,9 @@ QUERIES = [
 FILTER = ('humans[Filter] NOT (nanoparticle*[tiab] OR nanocomposite*[tiab] OR nanorobot*[tiab] '
           'OR photothermal[tiab] OR "drug delivery"[tiab] OR robot*[tiab] OR surgical[tiab] '
           'OR surgery[tiab] OR wound[tiab] OR fluorescence[tiab] OR hydrogel[tiab] OR krill[tiab] '
-          'OR infertility[tiab] OR catalysis[tiab] OR nanozyme*[tiab])')
+          'OR infertility[tiab] OR catalysis[tiab] OR nanozyme*[tiab] OR ablation[tiab] OR melasma[tiab] '
+          'OR hyperscanning[tiab] OR thyroid[tiab] OR propranolol[tiab] OR berberine[tiab] '
+          'OR moxibustion[tiab] OR nomogram[tiab] OR rejuvenation[tiab] OR "near-infrared spectroscopy"[tiab])')
 
 # PubMed publication types -> our coarse study-type label (auto-filled; admin may edit).
 TYPE_MAP = [

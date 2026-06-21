@@ -1,0 +1,44 @@
+name: New-research search
+
+# Weekly automated PubMed search. Opens a PR with refreshed proposals ONLY.
+# It never approves and never publishes — a human merges/curates, then runs
+# approve.py + publish.py locally (see pipeline/README.md).
+
+on:
+  schedule:
+    - cron: "0 13 * * 1"   # Mondays 13:00 UTC
+  workflow_dispatch: {}      # allow manual runs
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  search:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Search PubMed for new candidates
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}   # optional; set in repo secrets
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: python3 pipeline/search_new_research.py --days 14
+      - name: Open PR with proposals (no auto-publish)
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: pipeline/proposed_articles.json   # PR touches ONLY the proposals queue
+          branch: new-research-queue
+          delete-branch: true
+          title: "New research candidates for review"
+          commit-message: "chore: refresh new-research proposals"
+          body: |
+            Automated PubMed search. **This PR only updates the proposals queue — nothing is approved or published.**
+
+            To curate (locally, after reviewing):
+            1. `python3 pipeline/approve.py --approve PMID...`  (stage as draft)
+            2. write `summary` + confirm `tags`/`type` in `articles.json`
+            3. `python3 pipeline/publish.py --publish PMID`     (validated publish switch)
+            4. deploy `index.html`, `styles.css`, `articles.json` to GoDaddy

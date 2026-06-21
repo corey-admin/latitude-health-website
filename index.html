@@ -243,8 +243,11 @@
       var emptyMsg = '<p class="lit-empty">Curated new studies will appear here as our team reviews them.</p>';
       if (feed) {
         fetch('articles.json', { cache: 'no-store' }).then(function (r) { return r.json(); }).then(function (d) {
-          // Publish gate: only studies with a human-written summary are shown.
-          var pub = ((d && d.studies) || []).filter(function (s) { return s.summary && String(s.summary).trim(); });
+          // Publish gate: only status === "published" studies are shown (and they carry a
+          // human-written summary, enforced by pipeline/publish.py). Belt-and-suspenders on both.
+          var pub = ((d && d.studies) || []).filter(function (s) {
+            return s.status === 'published' && s.summary && String(s.summary).trim();
+          });
           if (!pub.length) { feed.innerHTML = emptyMsg; return; }
           feed.innerHTML = pub.map(function (s) {
             var a = s.authors || [];
