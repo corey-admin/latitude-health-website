@@ -179,7 +179,9 @@ a:hover { text-decoration: underline; }
 .footer-legal { margin: 0; font-size: .9rem; color: #6f86a0; }
 
 /* ---------- Responsive ---------- */
-@media (max-width: 760px) {
+/* Nav collapses to the menu button at 900px (sooner than the 760px content
+   breakpoint) so the longer link labels never crowd or overlap the brand. */
+@media (max-width: 900px) {
   .nav-toggle { display: flex; }
   .nav {
     position: absolute; top: 100%; left: 0; right: 0;
@@ -191,6 +193,8 @@ a:hover { text-decoration: underline; }
   .nav.open { display: flex; }
   .nav a { padding: 12px; }
   .nav .nav-cta { margin: 6px 0 0; text-align: center; }
+}
+@media (max-width: 760px) {
   .cards-3 { grid-template-columns: 1fr; }
   .about-grid { grid-template-columns: 1fr; gap: 28px; }
 }
