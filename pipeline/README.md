@@ -1,8 +1,9 @@
 # New-Research pipeline — automated search → admin approval → publish
 
 ASCVD-style **decoupled** pipeline. The public website stays **static** on GoDaddy and
-only reads approved content from `../articles.json`. This folder holds the off-site
-automation. **Nothing reaches the public site without admin approval.**
+only renders **published** studies (`status == "published"`) from `../articles.json`. This
+folder holds the off-site automation. **Nothing reaches the public site without a human
+approving it, writing a summary, and publishing it.**
 
 ```
  search_new_research.py  ──►  proposed_articles.json      (private review queue)

@@ -1,5 +1,5 @@
 {
-  "_comment": "Published 'From the literature' feed for the New Research section. ONLY approved entries live here (via pipeline/approve.py). The public site fetches this file; nothing is auto-published. Schema per entry: pmid, title, authors[], journal, year, doi, url, summary, added.",
+  "_comment": "'From the literature' feed. Studies live here in two states: 'draft' (staged by pipeline/approve.py) and 'published' (promoted by pipeline/publish.py after a human writes the summary). The public site renders status=='published' ONLY; nothing is auto-published. Per entry: pmid, title, authors[], journal, year, doi, url, type, tags[], summary, status, added.",
   "lastUpdated": "2026-06-21T12:25:44Z",
   "studies": [
     {

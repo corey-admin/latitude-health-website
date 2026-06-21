@@ -1,20 +1,21 @@
 #!/usr/bin/env python3
-"""Latitude Health Innovations — admin APPROVAL gate.
+"""Latitude Health Innovations — admin APPROVAL gate (stage as draft).
 
-The only path from the search proposals (proposed_articles.json) to the public
-site (../articles.json). NOTHING reaches the website without passing through here.
+Moves a proposal from proposed_articles.json into ../articles.json as a DRAFT
+(status="draft"). Drafts are NOT public. publish.py is the actual publish switch:
+it promotes a draft to status="published" after a human writes its summary.
 
-  - Approve -> entry is copied into ../articles.json (the published "From the
-    literature" feed). Add/edit its plain-language `summary` there before deploy.
-  - Reject  -> entry is archived in rejected.json (and never re-proposed).
+  - Approve -> entry copied into ../articles.json as a draft (status="draft").
+  - Reject  -> entry archived in rejected.json (and never re-proposed).
 
 Usage:
   python3 approve.py --list                       # show the pending queue
-  python3 approve.py --approve 42241742 12345678  # publish these PMIDs
+  python3 approve.py --approve 42241742 12345678  # stage these as drafts
   python3 approve.py --reject 42312819            # archive these PMIDs
   python3 approve.py                              # interactive review (a/r/s/q)
 
-After approving, edit summaries in ../articles.json, then deploy the static files
+After approving: write each study's `summary` (+ confirm tags/type) in
+../articles.json, run `publish.py --publish PMID`, then deploy the static files
 (index.html, styles.css, articles.json) to GoDaddy. See README.md.
 """
 from __future__ import annotations
@@ -64,7 +65,7 @@ def _to_study(p):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="Approve/reject proposed articles into the published feed")
+    ap = argparse.ArgumentParser(description="Approve (stage as draft) / reject proposed articles")
     ap.add_argument("--list", action="store_true", help="list the pending queue")
     ap.add_argument("--approve", nargs="*", default=[], metavar="PMID")
     ap.add_argument("--reject", nargs="*", default=[], metavar="PMID")
