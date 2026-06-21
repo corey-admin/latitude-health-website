@@ -29,12 +29,14 @@ Python 3 standard library, so they run on a laptop, a server, or CI.
 
 ## The cycle
 
-1. **Search (automated).** Finds newly published studies on heat / light (UV→infrared) and
-   cardiovascular health in diverse populations, and writes the private queue:
+1. **Search (automated).** Finds newly published studies and writes the private queue:
    ```
    NCBI_EMAIL=you@latitude-health.org python3 search_new_research.py --days 30
    ```
-   Already-published, pending, and rejected PMIDs are skipped automatically.
+   Already-published, pending, and rejected PMIDs are skipped automatically. **Query groups:**
+   `--group core` (default) = the clean, on-mission heat + diverse-populations queries that run
+   in the weekly automation; `--group experimental` = the noisier infrared/UV queries, run
+   **manually only** (not scheduled) pending more precise query design; `--group all` = both.
 
 2. **Review & approve (admin — this is the gate).**
    ```

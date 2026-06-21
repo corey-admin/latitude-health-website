@@ -1,10 +1,9 @@
 {
-  "generated": "2026-06-21T15:26:01Z",
-  "window_days": 365,
+  "generated": "2026-06-21T15:43:52Z",
+  "window_days": 60,
+  "group": "core",
   "queries": [
     "Sauna & heat → cardiovascular",
-    "Infrared / light therapy → cardiovascular",
-    "UV / sunlight → cardiovascular health",
     "Heat/light & diverse populations"
   ],
   "proposed": [
@@ -49,66 +48,6 @@
       "status": "proposed"
     },
     {
-      "pmid": "41987374",
-      "title": "[Preventing Bathing-Related Accidents without Overemphasizing \"Heat Shock\": toward Prevention Strategies Centered on Heat-Related Illness]",
-      "authors": [
-        "Tai Y",
-        "Obayashi K",
-        "Yamagami Y"
-      ],
-      "journal": "Nihon eiseigaku zasshi. Japanese journal of hygiene",
-      "year": "2026",
-      "doi": "10.1265/jjh.25012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41987374/",
-      "type": "review",
-      "tags": [
-        "heat",
-        "CVD"
-      ],
-      "query": "Sauna & heat → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41972282",
-      "title": "Effects of locally applied water-filtered infrared a irradiation adjunctive to iloprost and carbon dioxide hand baths in patients with systemic sclerosis and severe Raynaud's phenomenon - a randomized controlled trial",
-      "authors": [
-        "Schulz N",
-        "Boettger P",
-        "Bär J"
-      ],
-      "journal": "International journal of hyperthermia : the official journal of European Society for Hyperthermic Oncology, North American Hyperthermia Group",
-      "year": "2026",
-      "doi": "10.1080/02656736.2026.2653012",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41972282/",
-      "type": "RCT",
-      "tags": [
-        "heat",
-        "infrared",
-        "CVD"
-      ],
-      "query": "Sauna & heat → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41899724",
-      "title": "Effects of Bathtub Bathing and Sauna Practices on Cardiovascular and Systemic Health: A Narrative Review",
-      "authors": [
-        "Nagai M",
-        "Tanaka A"
-      ],
-      "journal": "International journal of environmental research and public health",
-      "year": "2026",
-      "doi": "10.3390/ijerph23030347",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41899724/",
-      "type": "review",
-      "tags": [
-        "heat",
-        "CVD"
-      ],
-      "query": "Sauna & heat → cardiovascular",
-      "status": "proposed"
-    },
-    {
       "pmid": "41794190",
       "title": "Acute blood pressure responses and safety considerations in heat therapy interventions: A narrative review",
       "authors": [
@@ -130,83 +69,24 @@
       "status": "proposed"
     },
     {
-      "pmid": "42010028",
-      "title": "Mathematical Modeling of Photoplethysmography: Model Assessment and Validation",
+      "pmid": "41639230",
+      "title": "Novel selective morpholine trace amine-associated receptor 1 partial agonists show promising preclinical effects for neuropsychiatric disorders and are well tolerated in healthy volunteers",
       "authors": [
-        "Lefieux A",
-        "Daraize J",
-        "Vergnet F"
+        "Fournier C",
+        "Buchy D",
+        "Mohr S"
       ],
-      "journal": "Cardiovascular engineering and technology",
+      "journal": "Molecular psychiatry",
       "year": "2026",
-      "doi": "10.1007/s13239-026-00826-0",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42010028/",
+      "doi": "10.1038/s41380-026-03465-y",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41639230/",
       "type": "study",
       "tags": [
-        "infrared",
-        "CVD"
+        "heat",
+        "CVD",
+        "equity"
       ],
-      "query": "Infrared / light therapy → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41990963",
-      "title": "Chronobiological disruption in ADHD: Developmental mechanisms linking sleep, behavior, and comorbid conditions",
-      "authors": [
-        "Glavan D",
-        "Udristoiu I",
-        "Hermann DM"
-      ],
-      "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
-      "year": "2026",
-      "doi": "10.1016/j.pnpbp.2026.111700",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41990963/",
-      "type": "review",
-      "tags": [
-        "infrared",
-        "CVD"
-      ],
-      "query": "Infrared / light therapy → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41974297",
-      "title": "Safety analysis of repeated low-level red light therapy on cone mosaic and microvasculature by adaptive optics scanning laser ophthalmoscopy",
-      "authors": [
-        "Yue Y",
-        "Zhang N",
-        "Liu KY"
-      ],
-      "journal": "Photodiagnosis and photodynamic therapy",
-      "year": "2026",
-      "doi": "10.1016/j.pdpdt.2026.105473",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41974297/",
-      "type": "study",
-      "tags": [
-        "infrared",
-        "CVD"
-      ],
-      "query": "Infrared / light therapy → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41942156",
-      "title": "LED red light for atrophy and microcirculation in pathologic myopia (RAMP): study design and protocol for a multicentre randomised controlled trial",
-      "authors": [
-        "Zhang J",
-        "Yu J",
-        "Wang X"
-      ],
-      "journal": "BMJ open",
-      "year": "2026",
-      "doi": "10.1136/bmjopen-2026-117063",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41942156/",
-      "type": "trial",
-      "tags": [
-        "infrared",
-        "CVD"
-      ],
-      "query": "Infrared / light therapy → cardiovascular",
+      "query": "Sauna & heat → cardiovascular",
       "status": "proposed"
     },
     {
@@ -223,112 +103,10 @@
       "url": "https://pubmed.ncbi.nlm.nih.gov/42101640/",
       "type": "review",
       "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41927870",
-      "title": "Prenatal heat stress and predicted postpartum cardiovascular disease risk: a longitudinal cohort study",
-      "authors": [
-        "Pardo N",
-        "Yang X",
-        "Hu Y"
-      ],
-      "journal": "Scientific reports",
-      "year": "2026",
-      "doi": "10.1038/s41598-026-46829-8",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41927870/",
-      "type": "study",
-      "tags": [
         "heat",
-        "UV",
-        "CVD"
+        "equity"
       ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41926055",
-      "title": "Seasonal fluctuations of cardiovascular risk markers in patients referred to coronary angiography",
-      "authors": [
-        "Riedmann U",
-        "Theiler-Schwetz V",
-        "Schmitt L"
-      ],
-      "journal": "Photochemical & photobiological sciences : Official journal of the European Photochemistry Association and the European Society for Photobiology",
-      "year": "2026",
-      "doi": "10.1007/s43630-026-00889-x",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41926055/",
-      "type": "study",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41807896",
-      "title": "Near-infrared photobiomodulation can alleviate chemotherapy-induced peripheral neuropathy-associated sensory abnormalities",
-      "authors": [
-        "Ren Z",
-        "Fan H",
-        "Chen Y"
-      ],
-      "journal": "Journal of photochemistry and photobiology. B, Biology",
-      "year": "2026",
-      "doi": "10.1016/j.jphotobiol.2026.113411",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41807896/",
-      "type": "study",
-      "tags": [
-        "UV",
-        "infrared",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41772864",
-      "title": "Vitamin D deficiency, multimorbidity, and mortality in stage 2 cardiovascular-kidney-metabolic (CKM) Syndrome: evidence from the NHANES 2001-2018 cohort",
-      "authors": [
-        "Ziqiu W",
-        "Xuejie W",
-        "Wen D"
-      ],
-      "journal": "Renal failure",
-      "year": "2026",
-      "doi": "10.1080/0886022X.2026.2621505",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41772864/",
-      "type": "study",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41735903",
-      "title": "Estimation of mortality and economic burden attributable to ground-level O(3) in Central Iran using BenMAP CE",
-      "authors": [
-        "Safari Z",
-        "Fouladi-Fard R",
-        "Mahmoudian MH"
-      ],
-      "journal": "BMC public health",
-      "year": "2026",
-      "doi": "10.1186/s12889-026-26680-2",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41735903/",
-      "type": "study",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
+      "query": "Heat/light & diverse populations",
       "status": "proposed"
     },
     {
@@ -342,67 +120,6 @@
       "year": "2026",
       "doi": "10.1016/j.ypmed.2026.108565",
       "url": "https://pubmed.ncbi.nlm.nih.gov/41903576/",
-      "type": "study",
-      "tags": [
-        "heat",
-        "equity"
-      ],
-      "query": "Heat/light & diverse populations",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41878097",
-      "title": "Heat and socioeconomic deprivation compound to drive coronary heart disease in Los Angeles",
-      "authors": [
-        "Huo S",
-        "Pulido TR",
-        "Archer RS"
-      ],
-      "journal": "Frontiers in public health",
-      "year": "2026",
-      "doi": "10.3389/fpubh.2026.1784078",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41878097/",
-      "type": "study",
-      "tags": [
-        "heat",
-        "CVD",
-        "equity"
-      ],
-      "query": "Heat/light & diverse populations",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41825471",
-      "title": "Heat waves and annual mortality among older adults (aged ≥65 years) in the USA",
-      "authors": [
-        "Healy JP",
-        "Castro E",
-        "Danesh Yazdi M"
-      ],
-      "journal": "The Lancet. Planetary health",
-      "year": "2026",
-      "doi": "10.1016/j.lanplh.2026.101432",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41825471/",
-      "type": "study",
-      "tags": [
-        "heat",
-        "equity"
-      ],
-      "query": "Heat/light & diverse populations",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41790999",
-      "title": "Spatial Heterogeneity in Synergistic Effects of Extreme Heat and NO 2 Exposures on Cardiorespiratory Hospitalizations in California",
-      "authors": [
-        "Ma Y",
-        "Chen C",
-        "Aguilera R"
-      ],
-      "journal": "Epidemiology (Cambridge, Mass.)",
-      "year": "2026",
-      "doi": "10.1097/EDE.0000000000001970",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41790999/",
       "type": "study",
       "tags": [
         "heat",

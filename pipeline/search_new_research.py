@@ -29,20 +29,24 @@ REJECTED = HERE / "rejected.json"
 EUTILS = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils"
 TOOL = "latitude-health-newresearch"
 
-# Topic queries: heat and/or light (UV->IR) x cardiovascular x (often) diverse populations.
+# Topic queries grouped by reliability:
+#   "core"         — clean + on-mission; runs in the WEEKLY automation (default).
+#   "experimental" — infrared/UV; "infrared"/"NIR"/"UV" are diagnostics/therapeutics-heavy,
+#                    so these stay noisier. Run MANUALLY only (--group experimental|all),
+#                    NOT on schedule, until the query design is more precise.
 QUERIES = [
-    ("Sauna & heat → cardiovascular",
+    ("core", "Sauna & heat → cardiovascular",
      '(sauna OR "heat therapy" OR hyperthermia OR "passive heat" OR "thermal therapy") '
      'AND ("blood pressure" OR cardiovascular OR vascular OR hypertension OR endothelial)'),
-    ("Infrared / light therapy → cardiovascular",
-     '(infrared OR "near-infrared" OR photobiomodulation OR "red light" OR "light therapy") '
-     'AND ("blood pressure" OR cardiovascular OR vascular OR endothelial OR "nitric oxide")'),
-    ("UV / sunlight → cardiovascular health",
-     '(ultraviolet OR "UV exposure" OR sunlight OR "solar radiation") '
-     'AND ("blood pressure" OR cardiovascular OR "nitric oxide" OR hypertension)'),
-    ("Heat/light & diverse populations",
+    ("core", "Heat/light & diverse populations",
      '(sauna OR heat OR ultraviolet OR infrared OR sunlight) AND (cardiovascular OR "blood pressure") '
      'AND (race OR ethnicity OR "skin pigmentation" OR disparities OR "diverse population" OR latitude)'),
+    ("experimental", "Infrared / light therapy → cardiovascular",
+     '(infrared OR "near-infrared" OR photobiomodulation OR "red light" OR "light therapy") '
+     'AND ("blood pressure" OR cardiovascular OR vascular OR endothelial OR "nitric oxide")'),
+    ("experimental", "UV / sunlight → cardiovascular health",
+     '(ultraviolet OR "UV exposure" OR sunlight OR "solar radiation") '
+     'AND ("blood pressure" OR cardiovascular OR "nitric oxide" OR hypertension)'),
 ]
 
 # Precision guards appended to every query. Human studies only; exclude the
@@ -152,7 +156,10 @@ def main():
     ap = argparse.ArgumentParser(description="PubMed search -> proposed_articles.json (no publishing)")
     ap.add_argument("--days", type=int, default=120, help="recency window (published within N days)")
     ap.add_argument("--max", type=int, default=6, help="max results per query")
+    ap.add_argument("--group", choices=["core", "experimental", "all"], default="core",
+                    help="query group: core (heat + diverse; scheduled) | experimental (infrared/UV; manual) | all")
     args = ap.parse_args()
+    active = [(label, q) for grp, label, q in QUERIES if args.group == "all" or grp == args.group]
 
     seen = known_pmids()
     existing = []
@@ -164,7 +171,7 @@ def main():
     pending = {str(x.get("pmid")) for x in existing}
 
     new = []
-    for label, q in QUERIES:
+    for label, q in active:
         try:
             ids = esearch(q, args.days, args.max)
         except Exception as e:
@@ -197,7 +204,8 @@ def main():
     out = {
         "generated": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "window_days": args.days,
-        "queries": [l for l, _ in QUERIES],
+        "group": args.group,
+        "queries": [l for l, _ in active],
         "proposed": existing + new,
     }
     PROPOSED.write_text(json.dumps(out, indent=2, ensure_ascii=False) + "\n")

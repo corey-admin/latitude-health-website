@@ -21,11 +21,13 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Search PubMed for new candidates
+      - name: Search PubMed for new candidates (core group only)
         env:
           NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}   # optional; set in repo secrets
           NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
-        run: python3 pipeline/search_new_research.py --days 14
+        # Weekly automation runs ONLY the clean "core" group (heat + diverse populations).
+        # The noisier infrared/UV "experimental" group is run manually, not on schedule.
+        run: python3 pipeline/search_new_research.py --days 14 --group core
       - name: Open PR with proposals (no auto-publish)
         uses: peter-evans/create-pull-request@v6
         with:
