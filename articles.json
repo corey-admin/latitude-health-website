@@ -1,0 +1,24 @@
+{
+  "_comment": "Published 'From the literature' feed for the New Research section. ONLY approved entries live here (via pipeline/approve.py). The public site fetches this file; nothing is auto-published. Schema per entry: pmid, title, authors[], journal, year, doi, url, summary, added.",
+  "lastUpdated": "2026-06-21T12:25:44Z",
+  "studies": [
+    {
+      "pmid": "42241742",
+      "title": "Heart disease and urban heat exposure in South Asian urban populations: Socioeconomic disparities and health policy prospective",
+      "authors": [
+        "Hassan MM",
+        "Lim KB",
+        "Yeo SF"
+      ],
+      "journal": "Heart & lung : the journal of critical care",
+      "year": "2026",
+      "doi": "10.1016/j.hrtlng.2026.102861",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42241742/",
+      "type": "study",
+      "tags": ["heat", "CVD", "equity"],
+      "summary": "",
+      "status": "draft",
+      "added": "2026-06-21T12:25:44Z"
+    }
+  ]
+}

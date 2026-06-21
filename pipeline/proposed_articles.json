@@ -1,0 +1,454 @@
+{
+  "generated": "2026-06-21T12:37:59Z",
+  "window_days": 365,
+  "queries": [
+    "Sauna & heat → cardiovascular",
+    "Infrared / light therapy → cardiovascular",
+    "UV / sunlight → cardiovascular health",
+    "Heat/light & diverse populations"
+  ],
+  "proposed": [
+    {
+      "pmid": "42204774",
+      "title": "Dietary berberine supplementation improves select physiological and psychological responses during exertional heat stress: A pilot study in young adults",
+      "authors": [
+        "Van Arman DA",
+        "Saunders JC",
+        "Korankyi YO"
+      ],
+      "journal": "Physiological reports",
+      "year": "2026",
+      "doi": "10.14814/phy2.70937",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42204774/",
+      "type": "RCT",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42113959",
+      "title": "Heat acclimation improves the neural control of body temperature during heat stress in older adults",
+      "authors": [
+        "Deshayes TA",
+        "Barry H",
+        "Dahhak A"
+      ],
+      "journal": "The Journal of physiology",
+      "year": "2026",
+      "doi": "10.1113/JP290417",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42113959/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42113470",
+      "title": "Acute effects of passive heat exposure on vascular function and exercise capacity in patients with chronic kidney disease",
+      "authors": [
+        "Chavez DA",
+        "Garten RS",
+        "Rodriguez-Miguelez P"
+      ],
+      "journal": "American journal of physiology. Heart and circulatory physiology",
+      "year": "2026",
+      "doi": "10.1152/ajpheart.00020.2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42113470/",
+      "type": "RCT",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42104241",
+      "title": "Propranolol monotherapy versus combined propranolol-gabapentin for prevention of paroxysmal sympathetic hyperactivity after moderate-severe traumatic brain injury: a randomized controlled trial",
+      "authors": [
+        "Negm EM",
+        "Gouda AM",
+        "Khatab MEM"
+      ],
+      "journal": "BMC anesthesiology",
+      "year": "2026",
+      "doi": "10.1186/s12871-026-03802-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42104241/",
+      "type": "RCT",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42056711",
+      "title": "Construction of a nomogram predictive model for thermal ablation efficacy in benign thyroid nodules based on multimodal ultrasound and serological markers",
+      "authors": [
+        "Zhao M",
+        "Dong Z",
+        "Chen J"
+      ],
+      "journal": "International journal of hyperthermia : the official journal of European Society for Hyperthermic Oncology, North American Hyperthermia Group",
+      "year": "2026",
+      "doi": "10.1080/02656736.2026.2658732",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42056711/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41987374",
+      "title": "[Preventing Bathing-Related Accidents without Overemphasizing \"Heat Shock\": toward Prevention Strategies Centered on Heat-Related Illness]",
+      "authors": [
+        "Tai Y",
+        "Obayashi K",
+        "Yamagami Y"
+      ],
+      "journal": "Nihon eiseigaku zasshi. Japanese journal of hygiene",
+      "year": "2026",
+      "doi": "10.1265/jjh.25012",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41987374/",
+      "type": "review",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42307880",
+      "title": "Synchronizing brains and hearts: A practical guide for caregiver-child fNIRS-ECG multimodal hyperscanning",
+      "authors": [
+        "Hong Y",
+        "Moore NJ",
+        "Quiñones-Camacho LE"
+      ],
+      "journal": "Behavior research methods",
+      "year": "2026",
+      "doi": "10.3758/s13428-026-03060-7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42307880/",
+      "type": "study",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42267621",
+      "title": "Exploring the mechanism of differential responses to combination therapy in melasma: pigmentary versus mixed pigmentary-vascular types-a clinical study based on interaction analysis",
+      "authors": [
+        "Li X",
+        "Nie L",
+        "Guo W"
+      ],
+      "journal": "The Journal of dermatological treatment",
+      "year": "2026",
+      "doi": "10.1080/09546634.2026.2680823",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42267621/",
+      "type": "study",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42257413",
+      "title": "Near-Infrared Spectroscopy (NIRS) for Early Postoperative Monitoring of Graft Oxygenation in Living Donor Liver Transplantation: A Prospective Observational Study",
+      "authors": [
+        "Ibadov R",
+        "Semash K",
+        "Usmonov A"
+      ],
+      "journal": "Clinical transplantation",
+      "year": "2026",
+      "doi": "10.1111/ctr.70589",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42257413/",
+      "type": "cohort",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42217236",
+      "title": "Sex differences in cardiovascular disease risk in type 1 diabetes: The vascular bed paradox in women",
+      "authors": [
+        "Simon AB",
+        "Trivedi D",
+        "Blackburn M"
+      ],
+      "journal": "Diabetes & vascular disease research",
+      "year": "2026",
+      "doi": "10.1177/14791641261454510",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42217236/",
+      "type": "study",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42200998",
+      "title": "Quantifying the Phoenix Sign: A Double-Blind Pilot Study on Lidocaine and Papaverine-Induced Vascular and Motor Changes After Common Peroneal Nerve Block in Diabetic Neuropathy",
+      "authors": [
+        "Barrett SL",
+        "Rader A",
+        "DuCasse S"
+      ],
+      "journal": "Journal of the American Podiatric Medical Association",
+      "year": "2026",
+      "doi": "10.3390/japma116030035",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42200998/",
+      "type": "RCT",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42197974",
+      "title": "Skeletal Muscle Blood Flow and NIRS Oxygenation Kinetics as a Tool to Evaluate Adaptations to High-Intensity Exercise Training",
+      "authors": [
+        "Lesmana HS",
+        "Rodrigues P",
+        "Simpson LL"
+      ],
+      "journal": "Sensors (Basel, Switzerland)",
+      "year": "2026",
+      "doi": "10.3390/s26103167",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42197974/",
+      "type": "study",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42278444",
+      "title": "Skin Cancer Prevention and Antiaging: Role of Nicotinamide",
+      "authors": [
+        "Moro F",
+        "Panebianco ASI",
+        "Bartolocci V"
+      ],
+      "journal": "International journal of molecular sciences",
+      "year": "2026",
+      "doi": "10.3390/ijms27114918",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42278444/",
+      "type": "review",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42107949",
+      "title": "SECONDARY AMINO GROUPS IN ACE INHIBITORS/CALCIUM CHANNEL BLOCKERS, ANTIARRHYTHMICS AND ANTICOAGULANTS AS DONORS FOR DRUG RELATED PHOTOTOXICITY/CARCINOGENICITY: NUTRITIONAL NITROSOGENESIS AS SUBSTANTIAL/ADDITIONAL COFACTOR FOR SKIN CARCINOGENESIS",
+      "authors": [
+        "Tchernev G",
+        "Kordeva S",
+        "Broshtilova V"
+      ],
+      "journal": "Georgian medical news",
+      "year": "2026",
+      "doi": null,
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42107949/",
+      "type": "study",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42107134",
+      "title": "Microvascular remodeling strategy for skin rejuvenation through microenvironmental reprogramming and appendage restoration",
+      "authors": [
+        "Zhou J",
+        "Jiang S",
+        "Wang L"
+      ],
+      "journal": "Biomaterials",
+      "year": "2026",
+      "doi": "10.1016/j.biomaterials.2026.124249",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42107134/",
+      "type": "study",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42101640",
+      "title": "Climate Change and Sarcopenia: Mechanisms, Vulnerabilities, and Public Health Implications",
+      "authors": [
+        "Qaisar R",
+        "Ahmad F",
+        "Karim A"
+      ],
+      "journal": "Calcified tissue international",
+      "year": "2026",
+      "doi": "10.1007/s00223-026-01527-5",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42101640/",
+      "type": "review",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42080526",
+      "title": "Impact of infrared moxibustion for patients with mild hyperlipidemia: a protocol for a randomized controlled trial",
+      "authors": [
+        "Xie H",
+        "Feng F",
+        "Zhu J"
+      ],
+      "journal": "Annals of medicine",
+      "year": "2026",
+      "doi": "10.1080/07853890.2026.2665513",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42080526/",
+      "type": "trial",
+      "tags": [
+        "UV",
+        "infrared",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42025066",
+      "title": "Penetration of benzotriazole ultraviolet stabilizers across the blood-cerebrospinal fluid barrier in patients with leptomeningeal metastasis",
+      "authors": [
+        "Weng Y",
+        "Hu C",
+        "Wang M"
+      ],
+      "journal": "Journal of hazardous materials",
+      "year": "2026",
+      "doi": "10.1016/j.jhazmat.2026.142140",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42025066/",
+      "type": "study",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41927870",
+      "title": "Prenatal heat stress and predicted postpartum cardiovascular disease risk: a longitudinal cohort study",
+      "authors": [
+        "Pardo N",
+        "Yang X",
+        "Hu Y"
+      ],
+      "journal": "Scientific reports",
+      "year": "2026",
+      "doi": "10.1038/s41598-026-46829-8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41927870/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD",
+        "equity"
+      ],
+      "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41903576",
+      "title": "Trends in temperature-related deaths by educational attainment in the United States, 2010-2023",
+      "authors": [
+        "Szeto JJ",
+        "Khatana SAM"
+      ],
+      "journal": "Preventive medicine",
+      "year": "2026",
+      "doi": "10.1016/j.ypmed.2026.108565",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41903576/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "equity"
+      ],
+      "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41878097",
+      "title": "Heat and socioeconomic deprivation compound to drive coronary heart disease in Los Angeles",
+      "authors": [
+        "Huo S",
+        "Pulido TR",
+        "Archer RS"
+      ],
+      "journal": "Frontiers in public health",
+      "year": "2026",
+      "doi": "10.3389/fpubh.2026.1784078",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41878097/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD",
+        "equity"
+      ],
+      "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41825471",
+      "title": "Heat waves and annual mortality among older adults (aged ≥65 years) in the USA",
+      "authors": [
+        "Healy JP",
+        "Castro E",
+        "Danesh Yazdi M"
+      ],
+      "journal": "The Lancet. Planetary health",
+      "year": "2026",
+      "doi": "10.1016/j.lanplh.2026.101432",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41825471/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "equity"
+      ],
+      "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    }
+  ]
+}

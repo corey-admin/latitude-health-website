@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Tracked on purpose (the audit trail + published feed):
+#   articles.json, pipeline/proposed_articles.json, pipeline/rejected.json
