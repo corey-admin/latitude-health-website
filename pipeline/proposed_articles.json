@@ -1,5 +1,5 @@
 {
-  "generated": "2026-06-21T12:45:48Z",
+  "generated": "2026-06-21T15:26:01Z",
   "window_days": 365,
   "queries": [
     "Sauna & heat → cardiovascular",
@@ -130,17 +130,37 @@
       "status": "proposed"
     },
     {
-      "pmid": "42193872",
-      "title": "Wavelength-Dependent Modulation of Mesenchymal Stem Cell Fate: A Systems Biology Framework for Tissue Repair and Regenerative Medicine",
+      "pmid": "42010028",
+      "title": "Mathematical Modeling of Photoplethysmography: Model Assessment and Validation",
       "authors": [
-        "Amouroux B",
-        "Asghari KM",
-        "De Sousa M"
+        "Lefieux A",
+        "Daraize J",
+        "Vergnet F"
       ],
-      "journal": "Cells",
+      "journal": "Cardiovascular engineering and technology",
       "year": "2026",
-      "doi": "10.3390/cells15100861",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42193872/",
+      "doi": "10.1007/s13239-026-00826-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42010028/",
+      "type": "study",
+      "tags": [
+        "infrared",
+        "CVD"
+      ],
+      "query": "Infrared / light therapy → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41990963",
+      "title": "Chronobiological disruption in ADHD: Developmental mechanisms linking sleep, behavior, and comorbid conditions",
+      "authors": [
+        "Glavan D",
+        "Udristoiu I",
+        "Hermann DM"
+      ],
+      "journal": "Progress in neuro-psychopharmacology & biological psychiatry",
+      "year": "2026",
+      "doi": "10.1016/j.pnpbp.2026.111700",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41990963/",
       "type": "review",
       "tags": [
         "infrared",
@@ -150,17 +170,17 @@
       "status": "proposed"
     },
     {
-      "pmid": "42176631",
-      "title": "Uncovering the metabolic variations of sulfur dioxide in the brain of Parkinson's disease and air pollution: From imaging to therapeutic evaluations",
+      "pmid": "41974297",
+      "title": "Safety analysis of repeated low-level red light therapy on cone mosaic and microvasculature by adaptive optics scanning laser ophthalmoscopy",
       "authors": [
-        "Ke J",
-        "Zang S",
-        "Hu F"
+        "Yue Y",
+        "Zhang N",
+        "Liu KY"
       ],
-      "journal": "Journal of hazardous materials",
+      "journal": "Photodiagnosis and photodynamic therapy",
       "year": "2026",
-      "doi": "10.1016/j.jhazmat.2026.142478",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42176631/",
+      "doi": "10.1016/j.pdpdt.2026.105473",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41974297/",
       "type": "study",
       "tags": [
         "infrared",
@@ -170,103 +190,23 @@
       "status": "proposed"
     },
     {
-      "pmid": "42136054",
-      "title": "Combination Therapy With AOPT Intense Pulsed Light (Dual-Band Vascular Filter) and 1064 nm Nd:YAG Laser for Solitary, Superficial Infantile Hemangioma: A Retrospective Study",
+      "pmid": "41942156",
+      "title": "LED red light for atrophy and microcirculation in pathologic myopia (RAMP): study design and protocol for a multicentre randomised controlled trial",
       "authors": [
-        "Jiang Z",
-        "Jiang P",
-        "Ran F"
+        "Zhang J",
+        "Yu J",
+        "Wang X"
       ],
-      "journal": "Journal of cosmetic dermatology",
+      "journal": "BMJ open",
       "year": "2026",
-      "doi": "10.1111/jocd.70912",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42136054/",
-      "type": "study",
+      "doi": "10.1136/bmjopen-2026-117063",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41942156/",
+      "type": "trial",
       "tags": [
         "infrared",
         "CVD"
       ],
       "query": "Infrared / light therapy → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "42130374",
-      "title": "Assessing the Health and Functionality of the Microcirculation Using Thermal Imaging",
-      "authors": [
-        "Kell DB",
-        "Pretorius E"
-      ],
-      "journal": "Journal of biophotonics",
-      "year": "2026",
-      "doi": "10.1002/jbio.70270",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42130374/",
-      "type": "review",
-      "tags": [
-        "heat",
-        "infrared",
-        "CVD"
-      ],
-      "query": "Infrared / light therapy → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "42068720",
-      "title": "Blood cancer differentiation based on IR spectroscopy and chemometrics",
-      "authors": [
-        "Xie L",
-        "Guo S",
-        "Liu T"
-      ],
-      "journal": "Computer methods and programs in biomedicine",
-      "year": "2026",
-      "doi": "10.1016/j.cmpb.2026.109380",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42068720/",
-      "type": "study",
-      "tags": [
-        "infrared",
-        "CVD"
-      ],
-      "query": "Infrared / light therapy → cardiovascular",
-      "status": "proposed"
-    },
-    {
-      "pmid": "42278444",
-      "title": "Skin Cancer Prevention and Antiaging: Role of Nicotinamide",
-      "authors": [
-        "Moro F",
-        "Panebianco ASI",
-        "Bartolocci V"
-      ],
-      "journal": "International journal of molecular sciences",
-      "year": "2026",
-      "doi": "10.3390/ijms27114918",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42278444/",
-      "type": "review",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "42107949",
-      "title": "SECONDARY AMINO GROUPS IN ACE INHIBITORS/CALCIUM CHANNEL BLOCKERS, ANTIARRHYTHMICS AND ANTICOAGULANTS AS DONORS FOR DRUG RELATED PHOTOTOXICITY/CARCINOGENICITY: NUTRITIONAL NITROSOGENESIS AS SUBSTANTIAL/ADDITIONAL COFACTOR FOR SKIN CARCINOGENESIS",
-      "authors": [
-        "Tchernev G",
-        "Kordeva S",
-        "Broshtilova V"
-      ],
-      "journal": "Georgian medical news",
-      "year": "2026",
-      "doi": null,
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42107949/",
-      "type": "study",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
       "status": "proposed"
     },
     {
@@ -290,45 +230,6 @@
       "status": "proposed"
     },
     {
-      "pmid": "42025066",
-      "title": "Penetration of benzotriazole ultraviolet stabilizers across the blood-cerebrospinal fluid barrier in patients with leptomeningeal metastasis",
-      "authors": [
-        "Weng Y",
-        "Hu C",
-        "Wang M"
-      ],
-      "journal": "Journal of hazardous materials",
-      "year": "2026",
-      "doi": "10.1016/j.jhazmat.2026.142140",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/42025066/",
-      "type": "study",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
-      "pmid": "41986183",
-      "title": "Non-infectious environmental risk factors of multiple sclerosis: Mechanisms and intervention windows for prevention",
-      "authors": [
-        "Rival M",
-        "Thouvenot E"
-      ],
-      "journal": "Revue neurologique",
-      "year": "2026",
-      "doi": "10.1016/j.neurol.2026.03.010",
-      "url": "https://pubmed.ncbi.nlm.nih.gov/41986183/",
-      "type": "review",
-      "tags": [
-        "UV",
-        "CVD"
-      ],
-      "query": "UV / sunlight → cardiovascular health",
-      "status": "proposed"
-    },
-    {
       "pmid": "41927870",
       "title": "Prenatal heat stress and predicted postpartum cardiovascular disease risk: a longitudinal cohort study",
       "authors": [
@@ -343,6 +244,87 @@
       "type": "study",
       "tags": [
         "heat",
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41926055",
+      "title": "Seasonal fluctuations of cardiovascular risk markers in patients referred to coronary angiography",
+      "authors": [
+        "Riedmann U",
+        "Theiler-Schwetz V",
+        "Schmitt L"
+      ],
+      "journal": "Photochemical & photobiological sciences : Official journal of the European Photochemistry Association and the European Society for Photobiology",
+      "year": "2026",
+      "doi": "10.1007/s43630-026-00889-x",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41926055/",
+      "type": "study",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41807896",
+      "title": "Near-infrared photobiomodulation can alleviate chemotherapy-induced peripheral neuropathy-associated sensory abnormalities",
+      "authors": [
+        "Ren Z",
+        "Fan H",
+        "Chen Y"
+      ],
+      "journal": "Journal of photochemistry and photobiology. B, Biology",
+      "year": "2026",
+      "doi": "10.1016/j.jphotobiol.2026.113411",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41807896/",
+      "type": "study",
+      "tags": [
+        "UV",
+        "infrared",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41772864",
+      "title": "Vitamin D deficiency, multimorbidity, and mortality in stage 2 cardiovascular-kidney-metabolic (CKM) Syndrome: evidence from the NHANES 2001-2018 cohort",
+      "authors": [
+        "Ziqiu W",
+        "Xuejie W",
+        "Wen D"
+      ],
+      "journal": "Renal failure",
+      "year": "2026",
+      "doi": "10.1080/0886022X.2026.2621505",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41772864/",
+      "type": "study",
+      "tags": [
+        "UV",
+        "CVD"
+      ],
+      "query": "UV / sunlight → cardiovascular health",
+      "status": "proposed"
+    },
+    {
+      "pmid": "41735903",
+      "title": "Estimation of mortality and economic burden attributable to ground-level O(3) in Central Iran using BenMAP CE",
+      "authors": [
+        "Safari Z",
+        "Fouladi-Fard R",
+        "Mahmoudian MH"
+      ],
+      "journal": "BMC public health",
+      "year": "2026",
+      "doi": "10.1186/s12889-026-26680-2",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41735903/",
+      "type": "study",
+      "tags": [
         "UV",
         "CVD"
       ],

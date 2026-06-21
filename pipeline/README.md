@@ -39,11 +39,12 @@ Python 3 standard library, so they run on a laptop, a server, or CI.
 2. **Review & approve (admin — this is the gate).**
    ```
    python3 approve.py --list                      # see the queue
-   python3 approve.py --approve 42241742 40012345 # publish these
+   python3 approve.py --approve 42241742 40012345 # stage these as drafts
    python3 approve.py --reject  42312819          # archive these
    python3 approve.py                             # interactive (a/r/s/q)
    ```
-   Approved entries are copied into `../articles.json`; rejected ones go to `rejected.json`.
+   Approved entries are copied into `../articles.json` as **drafts** (hidden until published via
+   publish.py); rejected ones go to `rejected.json`.
 
 3. **Write the summary + confirm tags/type.** Approved studies land in `../articles.json`
    as `status: "draft"` and stay **hidden**. Write each study's `summary` (one or two sentences,

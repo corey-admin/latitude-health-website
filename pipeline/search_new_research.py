@@ -52,7 +52,13 @@ FILTER = ('humans[Filter] NOT (nanoparticle*[tiab] OR nanocomposite*[tiab] OR na
           'OR surgery[tiab] OR wound[tiab] OR fluorescence[tiab] OR hydrogel[tiab] OR krill[tiab] '
           'OR infertility[tiab] OR catalysis[tiab] OR nanozyme*[tiab] OR ablation[tiab] OR melasma[tiab] '
           'OR hyperscanning[tiab] OR thyroid[tiab] OR propranolol[tiab] OR berberine[tiab] '
-          'OR moxibustion[tiab] OR nomogram[tiab] OR rejuvenation[tiab] OR "near-infrared spectroscopy"[tiab])')
+          'OR moxibustion[tiab] OR nomogram[tiab] OR rejuvenation[tiab] '
+          # measurement/imaging, materials chemistry, and off-mission disease noise that the
+          # infrared/UV queries otherwise pull (spectroscopy != light *exposure*):
+          'OR spectroscopy[tiab] OR spectrometry[tiab] OR chemometrics[tiab] OR stabilizer*[tiab] '
+          'OR "stem cell"[tiab] OR "multiple sclerosis"[tiab] OR "skin cancer"[tiab] '
+          # infrared/UV terms are heavily used in diagnostics/therapeutics unrelated to light EXPOSURE:
+          'OR imaging[tiab] OR photodynamic[tiab] OR "intense pulsed light"[tiab] OR microparticle*[tiab])')
 
 # PubMed publication types -> our coarse study-type label (auto-filled; admin may edit).
 TYPE_MAP = [
