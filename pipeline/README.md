@@ -40,9 +40,11 @@ Python 3 standard library, so they run on a laptop, a server, or CI.
    ```
    Approved entries are copied into `../articles.json`; rejected ones go to `rejected.json`.
 
-3. **Add a plain-language summary.** Open `../articles.json` and fill the `summary` field for
-   each newly approved study (one or two sentences in your own words). Citations are real
-   PubMed records — never invented.
+3. **Write the summary (this is the publish switch).** Approved studies are added to
+   `../articles.json` as **drafts** and stay **hidden on the site until you fill their
+   `summary`** (one or two sentences in your own words). Also confirm the auto-filled `type`
+   (RCT / cohort / review / …) and the draft `tags` (heat / UV / infrared / BP / CVD / equity).
+   Citations are real PubMed records — never invented; summaries are always human-written.
 
 4. **Publish.** Upload **`index.html`, `styles.css`, and `articles.json`** to GoDaddy
    `public_html` (File Manager or FTP). The site renders the updated feed. *(Only `articles.json`
