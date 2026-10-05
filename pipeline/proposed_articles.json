@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21T15:43:52Z",
-  "window_days": 60,
+  "generated": "2026-10-05T21:02:19Z",
+  "window_days": 14,
   "group": "core",
   "queries": [
     "Sauna & heat → cardiovascular",
@@ -85,6 +85,87 @@
         "equity"
       ],
       "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42743566",
+      "title": "The effect of drysuit diving in warm water on body temperature and post immersion orthostatic hypotension",
+      "authors": [
+        "Murphey JT",
+        "Hess HW",
+        "Worley ML"
+      ],
+      "journal": "Diving and hyperbaric medicine",
+      "year": "2026",
+      "doi": "10.28920/dhm56.3.271-279",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42743566/",
+      "type": "RCT",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42677940",
+      "title": "Severe heat stress exposure as a hidden driver of future cardiovascular disease: a narrative review of animal and human studies",
+      "authors": [
+        "Smuder AJ",
+        "Selsby JT",
+        "Roths M"
+      ],
+      "journal": "American journal of physiology. Regulatory, integrative and comparative physiology",
+      "year": "2026",
+      "doi": "10.1152/ajpregu.00191.2026",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42677940/",
+      "type": "review",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42167335",
+      "title": "Novel Exercise-based Strategies for Lowering Blood Pressure",
+      "authors": [
+        "Craighead DH",
+        "Runion JK",
+        "Killip SW"
+      ],
+      "journal": "International journal of sports medicine",
+      "year": "2026",
+      "doi": "10.1055/a-2881-1622",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42167335/",
+      "type": "review",
+      "tags": [
+        "heat",
+        "BP",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42060606",
+      "title": "Updates in paediatric advanced life support (PALS) 2025: Implications for clinical practice",
+      "authors": [
+        "Tripathy SK",
+        "Das S",
+        "Ansari E"
+      ],
+      "journal": "Tropical doctor",
+      "year": "2026",
+      "doi": "10.1177/00494755261445181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42060606/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
       "status": "proposed"
     }
   ]
