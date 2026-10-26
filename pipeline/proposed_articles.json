@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21T15:43:52Z",
-  "window_days": 60,
+  "generated": "2026-10-26T19:00:57Z",
+  "window_days": 14,
   "group": "core",
   "queries": [
     "Sauna & heat → cardiovascular",
@@ -82,6 +82,27 @@
       "type": "study",
       "tags": [
         "heat",
+        "equity"
+      ],
+      "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    },
+    {
+      "pmid": "42885770",
+      "title": "Joint Impacts of Ambient Air Pollution and Temperature on Cardiovascular Disease in West Florida",
+      "authors": [
+        "Chen C",
+        "Shehub A",
+        "Orgul S"
+      ],
+      "journal": "Journal of the American Heart Association",
+      "year": "2026",
+      "doi": "10.1161/JAHA.126.049988",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42885770/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD",
         "equity"
       ],
       "query": "Heat/light & diverse populations",
