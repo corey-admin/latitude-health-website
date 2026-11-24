@@ -1,6 +1,6 @@
 {
-  "generated": "2026-06-21T15:43:52Z",
-  "window_days": 60,
+  "generated": "2026-11-24T00:34:51Z",
+  "window_days": 14,
   "group": "core",
   "queries": [
     "Sauna & heat → cardiovascular",
@@ -85,6 +85,26 @@
         "equity"
       ],
       "query": "Heat/light & diverse populations",
+      "status": "proposed"
+    },
+    {
+      "pmid": "43053672",
+      "title": "Sauna bathing as a health intervention: a qualitative study of personal experiences",
+      "authors": [
+        "Stenkilsson Hoff J",
+        "Johansson A",
+        "Svensson H"
+      ],
+      "journal": "International journal of circumpolar health",
+      "year": "2026",
+      "doi": "10.1080/22423982.2026.2765024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/43053672/",
+      "type": "study",
+      "tags": [
+        "heat",
+        "CVD"
+      ],
+      "query": "Sauna & heat → cardiovascular",
       "status": "proposed"
     }
   ]
